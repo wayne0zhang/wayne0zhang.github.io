@@ -314,7 +314,7 @@
         owner: 'wayne0zhang',
         admin: '[&#39;wayne0zhang&#39;]',
         id: location.pathname,
-        labels: 'Gitalk',
+        labels: 'Gitalk'.split(',').filter(l => l),
         perPage: 15,
         pagerDirection: 'last',
         createIssueManually: true,
